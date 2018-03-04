@@ -139,7 +139,7 @@ public class Kandoe {
         cardGameSessionInfo5.setCard(card5);
         cardGameSessionInfo5.setGameSession(gameSession);
         cardGameSessionInfoList.add(cardGameSessionInfo5);
-        card4.addCardGameSessionInfo(cardGameSessionInfo5);
+        card5.addCardGameSessionInfo(cardGameSessionInfo5);
 
         gameSession.setCardGameSessionInfos(cardGameSessionInfoList);
         System.out.println(gameSession.getUserGameSessionInfos().toString());
